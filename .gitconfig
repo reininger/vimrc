@@ -1,0 +1,13 @@
+[include]
+  path = ~/.gitconfig.aliases
+[user]
+  name = Reid Reininger
+  email = reidreininger@outlook.com
+[core]
+  editor = vim
+[push]
+  default = upstream
+[merge]
+  ff = only
+[fetch]
+  prune = true
