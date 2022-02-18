@@ -1,0 +1,12 @@
+[alias]
+  sla = log --oneline --decorate --graph --all
+  unstage = reset
+  uncommit = reset --soft HEAD^
+  car = commit --amend --no-edit
+  glog = log -E -i --grep
+  b = branch
+  aa = add .
+  cm = commit -m
+  co = checkout
+  a = add
+  ld = log --graph
